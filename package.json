@@ -1,0 +1,33 @@
+{
+  "name": "karmatron",
+  "version": "1.0.0-beta0",
+  "description": "My only desire is karma.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/karmatron.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LucasHill/karmatron.git"
+  },
+  "engines": {
+    "node": "8.9.x"
+  },
+  "author": "Lucas Hill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasHill/karmatron/issues"
+  },
+  "homepage": "https://github.com/LucasHill/karmatron#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "snoowrap": "^1.15.1",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^4.0.2",
+    "@types/node": "^8.0.53",
+    "@types/snoowrap": "^1.14.3"
+  }
+}
